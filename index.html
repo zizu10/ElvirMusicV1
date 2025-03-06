@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elvir Music</title>
+    <!--========  CSS  ========-->
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/style1.css">
+    <link rel="stylesheet" href="./styles/book.css">
+    <link rel="stylesheet" href="./styles/mediaqueries.css">
+    <!--========  Font awesome  ========-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+
+    <!--========  Theme Switcher  ========-->
+    <link rel="stylesheet" href="./styles/skins/color-1.css" class="alternate-style" title="color-1" true>
+    <link rel="stylesheet" href="./styles/skins/color-2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" href="./styles/skins/color-3.css" class="alternate-style" title="color-3" disabled>
+    <link rel="stylesheet" href="./styles/skins/color-4.css" class="alternate-style" title="color-4" disabled>
+    <link rel="stylesheet" href="./styles/skins/color-5.css" class="alternate-style" title="color-5" disabled>
+    <link rel="stylesheet" href="./styles/themes.css">
+
+
+
+
+</head>
+
+<body>
+    <!--========  Navigacija  ========-->
+    <nav id="desktop-nav">
+        <div class="logo">
+            <a href="#home">Elvir Musić</a>
+
+        </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Articles</a></li>
+                <li><a href="#project">Books</a></li>
+            </ul>
+        </div>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact</button>
+    </nav>
+    <!--========  Navigacija hamburger  ========-->
+    <nav id="hamburger-nav">
+        <div class="logo">Elvir Musić</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#profile" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Articles</a></li>
+                <li><a href="#project" onclick="toggleMenu()">Books</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <!--========  Section profile start  ========-->
+    <section id="profile">
+        <div class="section_pic-container">
+            <img class="img" src="./files/elvir.jpg" alt="Slika Elvir">
+        </div>
+        <div class="section-text">
+            <p class="section-text-p1">Hello, I'm</p>
+            <h1 class="title">Elvir Musić</h1>
+            <p class="section-text-p2">Persian language and literature, Ph.D</p>
+            <div class="btn-container">
+
+
+                <button class="btn btn-color-2" onclick="window.open('./files/Elvir-Music-cv.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact me </button>
+            </div>
+            <div id="socials-container">
+                <a href="mailto:elvirmusic@hotmail.com" class="c-icon">
+                    <i class="fas fa-envelope .navfa"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/elvir-musi%C4%87-761b6b30?trk=people-guest_people_search-card&original_referer=https%3A%2F%2Fwww.linkedin.com%2F"
+                    class="c-icon">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <!--========   
+                 
+                <img src="./files/linkedin.png" alt="My LinkedIn profile" class="icon"
+                    onclick="location.href='https://ba.linkedin.com/in/elvir-musi%C4%87-761b6b30?trk=people-guest_people_search-card&original_referer=https%3A%2F%2Fwww.linkedin.com%2F'">
+                <img src="./files/email.png" alt="My LinkedIn profile" class="icon email-icon-profile"
+                    onclick="location.href='mailto:musicelvir@hotmail.com'">
+                     ========-->
+            </div>
+        </div>
+
+
+    </section><!--========  Section profile ends  ========-->
+
+
+    <!--========  Section About start  ========-->
+    <section id="about">
+        <p class="section-text-p1">
+            Get To know More
+        </p>
+        <h1 class="title">About me</h1>
+        <div class="section-container">
+            <!--======== 
+            <div class="section-pic-container"> 
+               <img src="./files/about-pic.png" alt="Profile picture" class="about-pic"/>
+            </div>
+              ========-->
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <!--========  education start ========-->
+
+                    <div class="details-container">
+
+                        <!--========    ========-->
+                        <!--========    ========-->
+                        <div class="about-content padd-15">
+                            <div class="positon-center">
+                                <i class="fa-solid fa-school"></i>
+                                <h3 class="text-center">Education</h3>
+                            </div>
+
+                            <div class="education padd-15">
+                                <div class="row">
+                                    <div class="timeline-box padd-15">
+                                        <div class="timeline shadow-dark">
+                                            <!--timeline item-->
+                                            <div class="timeline-item">
+                                                <div class="circle-dot"></div>
+                                                <h3 class="timeline-date">
+                                                    <i class="fa fa-calendar"></i> 2006. - PhD
+                                                </h3>
+                                                <h4 class="timeline-title">University of Tehran </h4>
+                                                <p class="timeline-text">
+                                                    Persian Langauge and Literature
+                                                </p>
+                                            </div>
+                                            <!--timeline item-->
+                                            <div class="timeline-item">
+                                                <div class="circle-dot"></div>
+                                                <h3 class="timeline-date">
+                                                    <i class="fa fa-calendar"></i> 2002. - Master
+                                                </h3>
+                                                <h4 class="timeline-title">Tarbiat Modarres University</h4>
+                                                <p class="timeline-text">
+                                                    Persian Langauge and Literature
+                                                </p>
+
+                                            </div>
+                                            <!--timeline item-->
+                                            <div class="timeline-item">
+                                                <div class="circle-dot"></div>
+                                                <h3 class="timeline-date">
+                                                    <i class="fa fa-calendar"></i> 1999. - Graduate
+                                                </h3>
+
+                                                <h4 class="timeline-title">
+                                                    University of Tehran
+                                                </h4>
+
+                                                <p class="timeline-text">
+                                                    Persian Langauge and Literature
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--========    ========-->
+                        <!--========    ========-->
+
+
+
+
+                        <!--========   
+                         
+                        <img src="./files/experience.png" alt="Experience icon" class="icon"/>
+                        <h3>Work experience</h3>
+                        <p>Islamic Pedagogical Faculty of University of Zenica, Bosnia and Herzegovina, 14.12.2011. - 2012 <br>
+                            Institute of Social Sciences, Rumi University, Konya, Turkey, 01.09.2013. - 27.07.2016.
+                             </p>
+                              ========-->
+                    </div><!--========  education   ========-->
+                    <!--========  Experience start  ========-->
+                    <div class="details-container">
+                        <!--========    ========-->
+                        <!--========    ========-->
+                        <div class="about-content padd-15">
+                            <div class="positon-center">
+                                <i class="fa-solid fa-pen-nib"></i>
+                                <h3 class="text-center">Experience</h3>
+                            </div>
+
+                            <div class="education padd-15">
+                                <div class="row">
+                                    <div class="timeline-box padd-15">
+                                        <div class="timeline shadow-dark">
+                                            <!--timeline item-->
+                                            <div class="timeline-item">
+                                                <div class="circle-dot"></div>
+                                                <h3 class="timeline-date">
+                                                    <i class="fa fa-calendar"></i> 2013. - 2016.
+                                                </h3>
+
+                                                <h4 class="timeline-title">
+                                                    Institute of Social Sciences, Rumi University, Konya, Turkey
+                                                </h4>
+
+                                                <p class="timeline-text">
+
+                                                </p>
+                                            </div>
+                                            <!--timeline item-->
+                                            <div class="timeline-item">
+                                                <div class="circle-dot"></div>
+                                                <h3 class="timeline-date">
+                                                    <i class="fa fa-calendar"></i> 2011. - 2012.
+                                                </h3>
+                                                <h4 class="timeline-title">Islamic Pedagogical Faculty of University of
+                                                    Zenica, Bosnia and Herzegovina</h4>
+                                                <p class="timeline-text">
+
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--========    ========-->
+                        <!--========    ========-->
+                    </div><!--========  Experience end  ========-->
+                    <!--========  Reward start  ========-->
+                    <div class="details-container">
+
+                        <!--========    ========-->
+                        <!--========    ========-->
+                        <div class="about-content padd-15">
+                            <div class="positon-center">
+                                <i class="fa-solid fa-trophy"></i>
+                                <h3 class="text-center">Rewards</h3>
+                            </div>
+
+                            <div class="education padd-15">
+                                <div class="row">
+                                    <div class="timeline-box padd-15">
+                                        <div class="timeline shadow-dark">
+                                            <!--timeline item-->
+                                            <div class="timeline-item">
+                                                <div class="circle-dot"></div>
+                                                <h3 class="timeline-date">
+                                                    <i class="fa fa-calendar"></i> 2016.
+                                                </h3>
+                                                <h4 class="timeline-title">Academic Success Award, Rumi University,
+                                                    Konya</h4>
+                                                <p class="timeline-text">
+
+                                                </p>
+                                            </div>
+                                            <!--timeline item-->
+                                            <div class="timeline-item">
+                                                <div class="circle-dot"></div>
+                                                <h3 class="timeline-date">
+                                                    <i class="fa fa-calendar"></i> 2014.
+                                                </h3>
+                                                <h4 class="timeline-title">World Book Award of Islamic Republic of Iran
+                                                    for 2014</h4>
+                                                <p class="timeline-text">
+
+                                                </p>
+
+                                            </div>
+                                            <!--timeline item-->
+                                            <div class="timeline-item">
+                                                <div class="circle-dot"></div>
+                                                <h3 class="timeline-date">
+                                                    <i class="fa fa-calendar"></i> 2009.
+                                                </h3>
+
+                                                <h4 class="timeline-title">
+                                                    Student of the Year (Daneshjooye Momtaz) of Faculty of Humanities of
+                                                    University of Tehran for 2009.
+                                                </h4>
+
+                                                <p class="timeline-text">
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--========    ========-->
+                        <!--========    ========-->
+
+
+
+
+                        <!--========   
+                         
+                        <img src="./files/experience.png" alt="Experience icon" class="icon"/>
+                        <h3>Work experience</h3>
+                        <p>Islamic Pedagogical Faculty of University of Zenica, Bosnia and Herzegovina, 14.12.2011. - 2012 <br>
+                            Institute of Social Sciences, Rumi University, Konya, Turkey, 01.09.2013. - 27.07.2016.
+                             </p>
+                              ========-->
+                    </div> <!--========  Reward end  ========-->
+
+                </div>
+                <div class="text-container">
+                    <p>Lorem ipsun sit amet consectetur adipisicing elit.
+                        Iste at quod minus nobis nihil voluptates reprehenderit recusandae illum exercitationem suscipit
+                        dolore neque doloribus,
+                        cumque porro animi dolorum iusto alias atque, sint aspernatur voluptas cum magni tempora rem.
+                        Maxime iste cumque tenetur corporis perspiciatis eum voluptas in nihil, quis, placeat animi?
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./files/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+    </section> <!--========  Section About end  ========-->
+
+    <!--========  Section experinece start  ========-->
+    <section id="experience">
+        <p class="section-text-p1">Explore My</p>
+        <h1 class="title">Articles</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">
+                        Articles published in internationally acclaimed journals
+                    </h2>
+                    <div class="article-container">
+
+                        <article>
+                            <i class="fa-solid fa-square-check"></i>
+                            <!--========  <i class="fa-solid fa-square-check"></i>   ========-->
+
+
+                            <div>
+                                <h3>“ Ta’sīr-e afkār-e Moulavī bar ravand-e šeklgīrīye huvīyat-e eslāmīye moselmānān-e
+                                    Bosnī va Herzegovīn</h3>
+                                <p>Macmueye maqalat-e kongreye 800. Salgard-e tavallod.e Moulana, Teheran, Iran, 2007.
+                                    (Persian language)</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-square-check"></i>
+                            <div>
+                                <h3>Translation of the Hafiz’s Diwan on Bosnian Language, Journal of philosophy,
+                                    religion, scolarship and social practice „Signs of the Time“</h3>
+                                <p>Vol. 13, No. 48/49., Sarayevo, Bosnia and Herzegovina (Bosnian language).</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-square-check"></i>
+                            <div>
+                                <h3>Značaj proučavanja naše baštine na perzijskom jeziku (The Importance of the Study of
+                                    our Heritage in Persian) </h3>
+                                <p>Godišnjak MIZ Tuzla 2010, Vol. 1, br. 1. (Bosnian language)</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-square-check"></i>
+                            <div>
+                                <h3>Simulacija u klasičnoj perzijskoj poeziji (Simulation/Ambiguity in Classical Persian
+                                    poetry), Journal for Iranian Studies and Islamic culture „Beharistan“ </h3>
+                                <p>Vol. X, No 22, april 2013, Sarayevo, pp. 56-77. </p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-square-check"></i>
+                            <div>
+                                <h3>Vazheh haye farsi dar zeban-e bosniayi (Persian Words in Bosnian Language), Journal
+                                    of Iranian Studies “Kamand” </h3>
+                                <p>University of Beluchistan, Quetta, Pakistan, pp 86-101. (Persian)</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-square-check"></i>
+                            <div>
+                                <h3> Love and it’s Gradation in Hafiz‘s Diwan, Journal of Philosophy and Religion
+                                    „Logos“ </h3>
+                                <p>Vol. 1, No. 1, january 2013, Tuzla, pp. 113-125. , (Bosnian/English) </p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-square-check"></i>
+                            <div>
+                                <h3>Qur'an and Hadith in the Alhamiyado Literature, The Herald of the Riyaset of the
+                                    Islamic Community in Bosnia and Herzegovina</h3>
+                                <p>Vol. LXXV, No. 1-2, january-february 2013, Sarayevo pp. 71-81. (Bosnian) </p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-square-check"></i>
+                            <div>
+                                <h3> ve Kaçka M. (2013), Persian Loanwords in the Gorani language, Journal for Iranian
+                                    studies and Islamic culture „Beharistan“ </h3>
+                                <p>Vol. XI, No. 24, april 2013, Sarayevo, pp. 33-55. (Bosnian/English) </p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-square-check"></i>
+                            <div>
+                                <h3> “Etimologija farsizama u bosanskohercegovačkoj alhamijado poeziji” (Etimology of
+                                    Persian Loanwords in the Al Ajamiyah literature in Bosnia and Herzegovina), Journal
+                                    for Iranian studies and Islamic culture „Beharistan“ </h3>
+                                <p>Vol XI, No. 25, Sarajevo, 2013, str. 11-28. (Bosnian language) </p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-square-check"></i>
+                            <div>
+                                <h3> “Koncepti dhe nivelet e paqes ne Mesnevine e Mevlanes” (The Concept and Levels of
+                                    Love in the Mathnawi), Reviste Shkencore “Hikmet”</h3>
+                                <p>Vol II, No. 3, Priština, 2013, str. 119-134. (Albanian language) </p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-square-check"></i>
+                            <div>
+                                <h3> „Višejezične pjesme bosanskohercegovačkih pjesnika na orijentalnim jezicima“,
+                                    Znakovi vremena </h3>
+                                <p>Vol. XIX, No. 73, Sarajevo, 2016, str. 63-74. (Bosnian language) </p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-square-check"></i>
+                            <div>
+                                <h3> „Ebu Sa`idovih četrdeset duhovnih postaja“, Znakovi vremena </h3>
+                                <p>Vol. XIX, No. 73, Sarajevo, 2016, str. 63-74. (Bosnian language) </p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-square-check"></i>
+                            <div>
+                                <h3> Različiti pristupi tumačenju Hafizovog Divana, Živa baština </h3>
+                                <p>Vol. III, No. 7, Mostar, str. 6-17. (Bosnian language) </p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <i class="fa-solid fa-square-check"></i>
+                            <div>
+                                <h3> Hafizova kritika društva kroz panegirike vladarima, Živa baština </h3>
+                                <p>Vol. III, No. 7, Mostar, str. 74-81. (Bosnian language) </p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <i class="fa-solid fa-square-check"></i>
+                            <div>
+                                <h3> Veliki vezir Mahmud-paša Adni - Hafizov sugovornik, Prilozi za Orijentalnu
+                                    filologiju </h3>
+                                <p>No. 66, Sarajevo, 2017. (Bosnian language)</p>
+                            </div>
+                        </article>
+
+
+
+
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">
+                        Persian language and literature, Ph.D
+                    </h2>
+                    <div class="article-container">
+
+                        <article>
+                            <i class="fa-solid fa-square-check"></i>
+                            <div>
+                                <h3>Lorem </h3>
+                                <p>Lorem ipsun.</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-square-check"></i>
+                            <div>
+                                <h3>Lorem </h3>
+                                <p>Lorem ipsun.</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-square-check"></i>
+                            <div>
+                                <h3>Lorem </h3>
+                                <p>Lorem ipsun.</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-square-check"></i>
+                            <div>
+                                <h3>Lorem </h3>
+                                <p>Lorem ipsun.</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-square-check"></i>
+                            <div>
+                                <h3>Lorem </h3>
+                                <p>Lorem ipsun.</p>
+                            </div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-square-check"></i>
+                            <div>
+                                <h3>Lorem </h3>
+                                <p>Lorem ipsun.</p>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <img src="./files/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#project'">
+    </section><!--========  Section experience end  ========-->
+
+    <!--========  Project Section Start knjige ========-->
+
+
+    <section id="project" class="full-page">
+        <div class="container">
+            <p class="section-text-p1">Browse My Recent</p>
+            <h1 class="title">Books</h1>
+            <div class="books-grid">
+                <!-- Knjiga 1 -->
+                <div class="details-container color-container">
+                    <div class="book-item">
+                        <div class="book">
+                            <img src="./files/knjiga1.jpg" alt="Naslovna strana knjige" class="book-cover" />
+
+
+                            <div class="book-content">
+                                <h3 class="h3-knjige">Ukratko o knjizi</h3>
+                                <p class="p-knjige">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quam iste quo nam
+                                    eius molestiae necessitatibus maiores eum exercitationem hic mollitia, libero
+                                    asperiores iusto saepe est reiciendis doloribus sint blanditiis possimus?
+                                    Consequatur cumque maiores,
+                                    corrupti repellendus voluptates nobis velit voluptate.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://github.com">Table Of Contents</button>
+                            <button class="btn btn-color-1 project-btn" onclick="location.href='https://github.com">Live
+                                Demo</button>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Knjiga 2 -->
+                <div class="details-container color-container">
+                    <div class="book-item">
+                        <div class="book">
+                            <img src="./files/knjiga2.jpg" alt="Naslovna strana knjige" class="book-cover" />
+
+
+                            <div class="book-content">
+                                <h3 class="h3-knjige">Ukratko o knjizi</h3>
+                                <p class="p-knjige">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quam iste quo nam
+                                    eius molestiae necessitatibus maiores eum exercitationem hic mollitia, libero
+                                    asperiores iusto saepe est reiciendis doloribus sint blanditiis possimus?
+                                    Consequatur cumque maiores,
+                                    corrupti repellendus voluptates nobis velit voluptate.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://github.com">Table Of Contents</button>
+                            <button class="btn btn-color-1 project-btn" onclick="location.href='https://github.com">Live
+                                Demo</button>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Knjiga 3 -->
+                <div class="details-container color-container">
+                    <div class="book-item">
+                        <div class="book">
+                            <img src="./files/knjiga3.jpg" alt="Naslovna strana knjige" class="book-cover" />
+
+
+                            <div class="book-content">
+                                <h3 class="h3-knjige">Ukratko o knjizi</h3>
+                                <p class="p-knjige">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quam iste quo nam
+                                    eius molestiae necessitatibus maiores eum exercitationem hic mollitia, libero
+                                    asperiores iusto saepe est reiciendis doloribus sint blanditiis possimus?
+                                    Consequatur cumque maiores,
+                                    corrupti repellendus voluptates nobis velit voluptate.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://github.com">Table Of Contents</button>
+                            <button class="btn btn-color-1 project-btn" onclick="location.href='https://github.com">Live
+                                Demo</button>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Knjiga 4 -->
+                <div class="details-container color-container">
+                    <div class="book-item">
+                        <div class="book">
+                            <img src="./files/knjiga1.jpg" alt="Naslovna strana knjige" class="book-cover" />
+
+
+                            <div class="book-content">
+                                <h3 class="h3-knjige">Ukratko o knjizi</h3>
+                                <p class="p-knjige">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quam iste quo nam
+                                    eius molestiae necessitatibus maiores eum exercitationem hic mollitia, libero
+                                    asperiores iusto saepe est reiciendis doloribus sint blanditiis possimus?
+                                    Consequatur cumque maiores,
+                                    corrupti repellendus voluptates nobis velit voluptate.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://github.com">Table Of Contents</button>
+                            <button class="btn btn-color-1 project-btn" onclick="location.href='https://github.com">Live
+                                Demo</button>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Knjiga 5 -->
+                <div class="details-container color-container">
+                    <div class="book-item">
+                        <div class="book">
+                            <img src="./files/knjiga1.jpg" alt="Naslovna strana knjige" class="book-cover" />
+
+
+                            <div class="book-content">
+                                <h3 class="h3-knjige">Ukratko o knjizi</h3>
+                                <p class="p-knjige">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quam iste quo nam
+                                    eius molestiae necessitatibus maiores eum exercitationem hic mollitia, libero
+                                    asperiores iusto saepe est reiciendis doloribus sint blanditiis possimus?
+                                    Consequatur cumque maiores,
+                                    corrupti repellendus voluptates nobis velit voluptate.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://github.com">Table Of Contents</button>
+                            <button class="btn btn-color-1 project-btn" onclick="location.href='https://github.com">Live
+                                Demo</button>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Knjiga 6 -->
+                <div class="details-container color-container">
+                    <div class="book-item">
+                        <div class="book">
+                            <img src="./files/knjiga1.jpg" alt="Naslovna strana knjige" class="book-cover" />
+
+
+                            <div class="book-content">
+                                <h3 class="h3-knjige">Ukratko o knjizi</h3>
+                                <p class="p-knjige">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quam iste quo nam
+                                    eius molestiae necessitatibus maiores eum exercitationem hic mollitia, libero
+                                    asperiores iusto saepe est reiciendis doloribus sint blanditiis possimus?
+                                    Consequatur cumque maiores,
+                                    corrupti repellendus voluptates nobis velit voluptate.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://github.com">Table Of Contents</button>
+                            <button class="btn btn-color-1 project-btn" onclick="location.href='https://github.com">Live
+                                Demo</button>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Knjiga 7 -->
+                <div class="details-container color-container">
+                    <div class="book-item">
+                        <div class="book">
+                            <img src="./files/knjiga1.jpg" alt="Naslovna strana knjige" class="book-cover" />
+
+
+                            <div class="book-content">
+                                <h3 class="h3-knjige">Ukratko o knjizi</h3>
+                                <p class="p-knjige">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quam iste quo nam
+                                    eius molestiae necessitatibus maiores eum exercitationem hic mollitia, libero
+                                    asperiores iusto saepe est reiciendis doloribus sint blanditiis possimus?
+                                    Consequatur cumque maiores,
+                                    corrupti repellendus voluptates nobis velit voluptate.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://github.com">Table Of Contents</button>
+                            <button class="btn btn-color-1 project-btn" onclick="location.href='https://github.com">Live
+                                Demo</button>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Knjiga 8 -->
+                <div class="details-container color-container">
+                    <div class="book-item">
+                        <div class="book">
+                            <img src="./files/knjiga1.jpg" alt="Naslovna strana knjige" class="book-cover" />
+
+
+                            <div class="book-content">
+                                <h3 class="h3-knjige">Ukratko o knjizi</h3>
+                                <p class="p-knjige">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quam iste quo nam
+                                    eius molestiae necessitatibus maiores eum exercitationem hic mollitia, libero
+                                    asperiores iusto saepe est reiciendis doloribus sint blanditiis possimus?
+                                    Consequatur cumque maiores,
+                                    corrupti repellendus voluptates nobis velit voluptate.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://github.com">Table Of Contents</button>
+                            <button class="btn btn-color-1 project-btn" onclick="location.href='https://github.com">Live
+                                Demo</button>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Knjiga 9 -->
+                <div class="details-container color-container">
+                    <div class="book-item">
+                        <div class="book">
+                            <img src="./files/knjiga1.jpg" alt="Naslovna strana knjige" class="book-cover" />
+
+
+                            <div class="book-content">
+                                <h3 class="h3-knjige">Ukratko o knjizi</h3>
+                                <p class="p-knjige">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quam iste quo nam
+                                    eius molestiae necessitatibus maiores eum exercitationem hic mollitia, libero
+                                    asperiores iusto saepe est reiciendis doloribus sint blanditiis possimus?
+                                    Consequatur cumque maiores,
+                                    corrupti repellendus voluptates nobis velit voluptate.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://github.com">Table Of Contents</button>
+                            <button class="btn btn-color-1 project-btn" onclick="location.href='https://github.com">Live
+                                Demo</button>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Knjiga 10 -->
+                <div class="details-container color-container">
+                    <div class="book-item">
+                        <div class="book">
+                            <img src="./files/knjiga1.jpg" alt="Naslovna strana knjige" class="book-cover" />
+
+
+                            <div class="book-content">
+                                <h3 class="h3-knjige">Ukratko o knjizi</h3>
+                                <p class="p-knjige">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, quam iste quo nam
+                                    eius molestiae necessitatibus maiores eum exercitationem hic mollitia, libero
+                                    asperiores iusto saepe est reiciendis doloribus sint blanditiis possimus?
+                                    Consequatur cumque maiores,
+                                    corrupti repellendus voluptates nobis velit voluptate.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://github.com">Table Of Contents</button>
+                            <button class="btn btn-color-1 project-btn" onclick="location.href='https://github.com">Live
+                                Demo</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./files/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+    </section>
+
+    <!--========  Contact section Start  ========-->
+    <section id="contact">
+        <p class="section-text-p1">Get In Touch </p>
+        <h1 class="title">Contact Me</h1>
+        <!--  
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container ">
+                <div class="c-icon">
+                    <i class="fas fa-envelope .confa"></i>
+                </div>
+                <p>
+                    <a href="mailto:musicelvir@hotmail.com">musicelvir@hotmail.com</a>
+                </p>
+            </div>
+
+            <div class="contact-info-container">
+                <div class="c-icon">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <p>
+                    <a href="https://www.linkedin.com/in/elvir-musi%C4%87-761b6b30?trk=people-guest_people_search-card&original_referer=https%3A%2F%2Fwww.linkedin.com%2F">LinkedIn</a>
+                </p>
+            </div>
+        </div>
+-->
+        <div class="contact-container">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                <input type="hidden" name="access_key" value="b9d31bd6-86c9-4e88-9105-ba8224b64001">
+             <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+             <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+             <textarea name="message"placeholder="Your Message" class="contact-inputs"required ></textarea>
+             <button type="submit" class="btn btn-color-1">Submit</button>
+            </form>
+            <div class="contact-right">
+
+            </div>
+        </div>
+    
+   
+
+    </section><!--========  Contacts section end  ========-->
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#profile">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Articles</a></li>
+                    <li><a href="#project">Books</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p class="footer-p"><span style="font-size: 20px;margin-bottom: -8px;">&copy </span> 2025. Admir Suljicic. All Rights Reserved</p>
+
+    </footer>
+    <!--Style Switcher Start Here-->
+    <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <div class="day-night s-icon">
+            <i class="fas "></i>
+        </div>
+        <h4>Theme Colors</h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+        </div>
+    </div> <!--Style Switcher End Here-->
+    <!--========  JS skripta  ========-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"
+        integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>
+    <script src="./scripts/script.js"></script>
+    <script src="./scripts/themes.js"></script>
+</body>
+
+</html>
+

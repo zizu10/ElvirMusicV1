@@ -1,0 +1,11 @@
+:root
+{
+  
+    --skin-color: #0c0c0e;
+    --text-950: #eae9fc;
+}
+body.dark{
+    
+   
+    --skin-color:var(--text-950)
+}
